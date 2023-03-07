@@ -6,18 +6,18 @@ var config = {
 
   // Mode 'GITHUB' for Github Pages, 'SERVER' for Self Hosted
   // Defaults to Server mode if not specified
-  mode: 'GITHUB',
+  mode: 'SERVER',
 
   // If Github mode is set, your Github username, repo name, 
   // and branch to get files from.
-  github: {
-    username: 'yourusername',
-    repo: 'yourrepo',
-    branch: 'gh-pages',
-    host: 'https://api.github.com',
+  //github: {
+    //username: 'yourusername',
+    //repo: 'yourrepo',
+    //branch: 'gh-pages',
+    //host: 'https://api.github.com',
     // Use prefix option if your site is located in a subdirectory.
     // prefix: 'subdirectory',
-  },
+  //},
 
   // The name of the layouts directory.
   layoutDirectory: 'layouts',
